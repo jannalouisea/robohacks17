@@ -1,4 +1,7 @@
-int sensorpin = 0;                 // analog pin used to connect the sharp sensor
+#include <Wire.h>
+#include <Zumo32U4.h>
+
+int sensorpin = A0;                 // analog pin used to connect the sharp sensor
 int val = 0;                 // variable to store the values from sensor(initially zero)
 
 void setup()
